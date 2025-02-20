@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattispi07's sites</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Pulsanti Social</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Servizi</a>
+                <ul class="submenu">
+                    <li><a href="https://github.com/Mattispi07/Tris">Tris</a></li>
+                    <li><a href="https://github.com/Mattispi07/Wordle">Wordle</a></li>
+                    <li><a href="https://github.com/Mattispi07/Snake">Snake</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Chi Siamo</a></li>
+            <li><a href="#social-buttons">Contatti</a></li> 
+        </ul>
+    </nav>
+    
+    <header id = "main-header">
+        <br>
+        <div class="header2-box">
+            <div class="header-box">
+                <h1 id="title"> 
+                    <a href="https://github.com/Mattispi07">Mattispi07's sites</a>
+                </h1>
+            </div>
+        </div>
+    </header>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="content">
+        <main>
+            <div class="box" id="tris-box">
+                <h2 id="tris" class="animate">
+                    <div class="box2">
+                        <a href="https://github.com/Mattispi07/Tris">Tris</a>
+                    </div>
+                </h2>
+                <p id="p">Il gioco Tris è un gioco da tavolo per due giocatori, X e O, che si alternano a segnare gli spazi in una griglia 3x3. Il giocatore che riesce a posizionare tre dei propri segni in una fila orizzontale, verticale o diagonale vince la partita.</p>
+                <p id="languages">
+                    <class class="box3"> 
+                        <a href="https://it.wikipedia.org/wiki/C%2B%2B">C++</a>
+                    </class>
+                </p>
+                <br> 
+            </div>
+        </main>
+        
+        <main>
+            <div class="box" id="wordle-box">
+                <h2 id="tris" class="animate">
+                    <div class="box2">
+                        <a href="https://github.com/Mattispi07/Wordle">Wordle</a>
+                    </div>
+                </h2>
+                <p id="p">Wordle è un gioco di parole in cui i giocatori devono indovinare una parola. Il gioco ha 3 diverse modalità di difficoltà e 3 diverse lingue da poter scegliere, in base alla modalità scelta varia la difficoltà, i tentativi e la lunghezza delle parole </p>
+                <p id="languages">
+                    <class class="box3">
+                        <a href="https://it.wikipedia.org/wiki/C%2B%2B">C++</a>
+                    </class>
+                </p>
+                <br>
+            </div>
+        </main>
+        
+        <main>
+            <div class="box" id="wordle-box">
+                <h2 id="tris" class="animate">
+                    <div class="box2">
+                        <a href="https://github.com/Mattispi07/Snake">Snake</a>
+                    </div>
+                </h2>
+                <p id="p">Il gioco Snake è un classico intramontabile che ha affascinato generazioni di giocatori. Nato negli anni '70 e reso popolare dai telefoni Nokia negli anni '90, Snake è un gioco di abilità e riflessi in cui il giocatore controlla un serpente in crescita che si muove su una griglia, cercando di mangiare il cibo senza toccare i bordi o se stesso.
+                    Il serpente si muove in una direzione predefinita e il giocatore può cambiarne il percorso usando i tasti direzionali.
+                    Ogni volta che il serpente mangia un pezzo di cibo, cresce in lunghezza e il punteggio aumenta.
+                    Se il serpente colpisce i bordi della schermata o se stesso, la partita finisce.</p>
+                <p id="languages">
+                    <class class="box3">
+                        <a href="https://it.wikipedia.org/wiki/Python">Python</a>
+                    </class>
+                </p>
+                <br>
+            </div>
+        </main>
+
+        <div id="social-button" class="social-buttons">
+            <a href="https://github.com/Mattispi07" class="social-btn github" target="_blank">
+                <i class="fa-brands fa-github"></i> <!-- Nome corretto dell'icona -->
+            </a>
+            <a href="https://www.instagram.com/07_matt_/" class="social-btn instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://gmail.com" class="social-btn gmail">
+                <i class="fa-solid fa-envelope"></i> <!-- Icona Gmail -->
+            </a>
+
+            </a>
+        </div>
+        <br><br><br><br><br>
+        <footer>
+
+            <p>&copy; 2025 WebSite by Mattispi07</p>
+        </footer>
+        <script>
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.classList.add('shrink');
+                } else {
+                    header.classList.remove('shrink');
+                }
+            });
+        </script>
+    
+    
+    
+    
+    </div>
+</body>
+</html>
